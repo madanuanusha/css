@@ -1,0 +1,659 @@
+body {
+    background-color:  black;
+  }
+
+
+
+#php {
+    background-color: pink;
+      width: 500px;
+      height: 220px;
+      padding: 20px;
+      border-radius:5px ;
+      margin: 80px;
+      display: inline-block;
+
+     }
+     h2 {
+      
+        padding-top: 20px;
+        font-size: 30px;
+      }
+      button {
+        background-color: rgb(32, 31, 31);
+        border-radius: 20px;
+        color: white;
+        margin-top: 20px;
+        padding: 10px;
+      }
+  
+ #jquery {
+    background-color: rgb(231, 231, 152);
+      width: 500px;
+      height: 220px;
+      padding: 20px;
+      border-radius:5px ;
+      margin: 100px;
+      display: inline-block;
+
+   
+     }
+#one{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+ #java{
+    background-color: rgb(172, 230, 121);
+    width: 500px;
+    height: 220px;
+    padding: 20px;
+    border-radius:5px ;
+    margin: 80px;
+    display: inline-block;
+ 
+     }
+     #c{
+        background-color: rgb(214, 255, 179);
+        width: 500px;
+        height: 220px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+     }
+
+      #two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     } 
+
+     #three{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     } 
+     #css{
+        background-color: rgb(112, 199, 170);
+      width: 500px;
+      height: 220px;
+      padding: 20px;
+      border-radius:5px ;
+      margin: 80px;
+      display: inline-block;
+
+     }
+     #boot{
+        background-color: rgb(117, 150, 88);
+        width: 500px;
+        height: 220px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+     }
+      #four{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #cl{
+        background-color: rgb(115, 190, 160);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+     }
+
+     #ca{
+        background-color: rgb(214, 255, 179);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+     } 
+
+     
+      #five{
+     
+         display: flex;
+         
+       
+     }
+
+
+     #r{
+        /* height: 50px;
+        width: 150px;
+        background-color: aquamarine;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 50px; */
+        background-color: rgb(139, 118, 85);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+      
+     }
+
+     #kotlin{
+/* 
+        height: 50px;
+        width: 150px;
+        background-color: aquamarine;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 50px; */
+        background-color: rgb(213, 198, 39);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+
+     #node{
+        background-color: rgb(123, 105, 166);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+      
+     }
+     #react{
+        background-color: rgb(207, 160, 189);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+      
+     } 
+
+
+     #six{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #json{
+        background-color: rgb(188, 113, 113);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+     #vue{
+        background-color: rgb(193, 130, 203);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #mysql{
+        background-color: rgb(161, 134, 92);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+     #xml{
+        background-color: rgb(174, 68, 245);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+
+     #seven{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #sass{
+        background-color: rgb(0, 140, 255);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #icons{
+        background-color: rgb(90, 143, 127);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #rwd{
+        background-color: rgb(214, 74, 74);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #graphics{
+        background-color: rgb(185, 145, 85);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+
+
+     #eight{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #svg{
+        background-color: rgb(142, 127, 209);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #canvas{
+        background-color: rgb(238, 202, 149);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+     #rasp{
+        background-color: rgb(160, 245, 226);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+     #cyber{
+        background-color: rgb(140, 240, 161);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+
+     #nine{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     #colors{
+        background-color: rgb(123, 224, 169);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #git{
+        background-color: rgb(223, 207, 156);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;;
+     }
+
+     #mat{
+        background-color: rgb(241, 193, 235);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #num{
+        background-color: rgb(253, 193, 193);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+
+     #ten{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     #pandas{
+        background-color: blanchedalmond;
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #sci{
+        background-color: rgb(240, 226, 182);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+
+     #asp{
+        background-color: rgb(189, 165, 245);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #ang{
+        background-color: rgb(233, 176, 176);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #eleven{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #app{
+        background-color: blanchedalmond;
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+
+     #go{
+        background-color: rgb(136, 173, 144);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+
+     #type{
+        background-color: rgb(219, 194, 247);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+        padding-bottom: 10px;
+      
+      
+     }
+
+     #dj{
+        background-color: rgb(196, 231, 179);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #tweleve{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #mon{
+        background-color: rgb(183, 213, 248);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #stat{
+        background-color: rgb(247, 187, 220);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #data{
+        background-color: rgb(165, 241, 182);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+     #typ{
+        background-color: rgb(250, 221, 177);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+     }
+
+
+     #thirteen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     #how{
+        /* height: 50px;
+        width: 150px;
+        background-color: aquamarine;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 50px; */
+        background-color: rgb(194, 233, 203);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     } 
+     #code{
+        background-color: rgb(247, 173, 189);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+     }
+     #spaces{
+        background-color: rgb(243, 208, 156);
+        width: 300px;
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 30px;
+        
+     }
+     #post{
+        background-color: rgb(135, 211, 192);
+      width: 300px;
+      height: 80px;
+      border-radius: 10px;
+     padding-top: 5px;
+        padding-bottom: 20px;
+      display: inline-block;
+      margin: 30px;
+
+     }
+     
+
+     #fourteen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+     #ex{
+        background-color: rgb(214, 255, 179);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+     
+     }
+
+     #dsa{
+        background-color: rgb(218, 123, 189);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+
+      
+      
+     }
+
+     #fifteen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     #ml{
+        background-color: rgb(120, 212, 205);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+      
+      
+     }
+
+     #ai{
+        background-color: rgb(168, 206, 134);
+        width: 500px;
+        height: 120px;
+        padding: 20px;
+        border-radius:5px ;
+        margin: 80px;
+        display: inline-block;
+  
+      
+      
+     }
+     
+     
