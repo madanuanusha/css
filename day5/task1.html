@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
             font-family:  Verdana, Tahoma, sans-serif;
             font-size: 15px;
@@ -19,10 +23,25 @@
             width: 100%;
             height: 10px;
             font-size: 17px;
-           z-index: 2;
-            
+           z-index: 2;          
            
-           
+        }
+
+        .con {
+          position: relative;
+        }
+        .text {
+          position: absolute;
+          top: 400px;
+          left: 42%;
+        }
+        .text span {
+          font-size: 50px;
+          color: white;
+        }
+        .text b {
+          background-color: rgba(18, 18, 18, 0.8);
+          padding: 10px;
         }
         #line1,#line2{
            display: flex;
@@ -34,7 +53,6 @@
             padding: 8px;
             position: relative;
         }
-        
         
         .head{
             
@@ -119,7 +137,32 @@
      .con img{
         width: 100%;
      }
+
+     .line1,.line2{
+        background-color: rgb(255, 255, 255);
+          height: 600px;
+          position: relative;
+          /* left: 20px; */
+          margin: 20px;
+     }
        
+     .line img,.line2 img{
+
+     }
+
+     .div{
+        position: relative;
+          display: inline-block;
+          padding-left: 20px;
+     }
+     .div h3{
+        position: absolute;
+          top: 0px;
+          background-color: black;
+          color: white;
+          padding: 10px;
+          margin-top: -2px;
+     }
     </style>
 </head>
 <body>
@@ -134,8 +177,9 @@
      <section>
         <div class="con">
             <img src="images/architect.jpg" alt="">
-            <div class="center"><h1 class="mid">BR</h1></div>
-            <div class="center"><h1 class="mid">Architects</h1></div>
+            <div class="text">
+                <span><b>BR</b> Architects</span>
+              </div>
         </div>
     </section>
     <br id="pro"> <br> <br>
@@ -146,43 +190,43 @@
         <div id="line1">
            <div class="div"> 
             <img src="images/summerhou.jpg" alt="" class="img">
-            <div class="txt"><h3 >Summer House</h3></div>
+            <h3 >Summer House</h3>
         </div>
         
            <div class="div"> 
             <img src="images/brick.jpg" alt="" class="img">
-        <div class="txt"><h3 >Brick House</h3></div>
+        <h3 >Brick House</h3>
         </div>
 
            <div class="div"> 
             <img src="images/renovated.jpg" alt="" class="img">
-        <div class="txt"> <h3 >Renovated</h3></div>
+        <h3 >Renovated</h3>
         </div>
 
            <div class="div"> 
             <img src="images/barn.jpg" alt="" class="img">
-        <div class="txt"><h3 > Barn House</h3></div>
+        <h3 > Barn House</h3>
         </div>
 
         </div>
         <div id="line2">
             <div class="div"> 
                 <img src="images/Sumh.jpg" alt="" class="img">
-            <div class="txt"><h3 >Summer House</h3></div>
+           <h3 >Summer House</h3>
             </div>
 
             <div class="div" >
                  <img src="images/brick2.jpg" alt="" class="img">
-                <div class="txt"> <h3 >Brick House</h3></div>
+                 <h3 >Brick House</h3>
             </div>
 
             <div class="div"> <img src="images/renovated2.jpg" alt="" class="img">
-            <div class="txt"> <h3 >Renovated</h3></div>
+            <h3 >Renovated</h3>
             </div >
 
             <div class="div">
                  <img src="images/barn2.jpg" alt="" class="img">
-                <div class="txt"> <h3 > Barn House</h3></div>
+                 <h3 > Barn House</h3>
             </div>
         </div>
         </section>

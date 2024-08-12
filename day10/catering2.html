@@ -4,32 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
-    /* *{
-        font-family: 'Times New Roman', Times, serif;
-    }*/
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    
     .nav{
-        background-color: lavenderblush;
-       font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
         display: flex;
         justify-content: space-between;
         padding: 20px;
         position: sticky;
-        z-index: 2;
+        
         top: 0px;
         left: 0px;
         right: 0px;
     }
+
     .nav a{
         text-decoration: none;
         color: black;
+    }
+    .bar{
+        display: none;
     }
    
    .right{
@@ -42,14 +37,13 @@
     align-items: center;
     justify-content: center;
     
-    
    }
    .burger img{
     width: 100%;
    }
    .h2{
     position: absolute;
-    color: purple;
+    color: rgba(0,0,0,0.6);
     text-align: center;
     bottom: 0px;
     left: 0px;
@@ -58,45 +52,39 @@
    }
    .about{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
-    color: purple;
    }
    .about img{
     width: 500px;
     height: 500px;
-     margin-left: 150px; 
+     /* margin-left: 10px;  */
    }
 
    .about h2{
     text-align: center;
     margin-right: 100px;
-    color: blueviolet;
-    padding-bottom: 10px;
    
    }
    .about h4{
     text-align: center;
     margin-right: 100px;
-    color: rgb(74, 5, 139);
-    padding-bottom: 15px;
     
    }
    .about p{
     margin-right: 100px;
     width: 450px;
-    margin-left: 50px;
+    margin-left: 20px;
     font-size: larger;
 
    }
    .menu{
     display: flex;
     margin-top: 50px;
-    /* margin-bottom: 10px; */
+    
    }
    .menu img{
     width: 550px;
-    /* margin-left: 200px; */
     margin-right: 120px;
     height: 700px;
     margin-bottom: 100px;
@@ -104,12 +92,10 @@
    .menu .items{
     margin-left: 150px;
     margin-right: 30px;
-    color: purple;
 
    }
    .menu .names{
     margin-bottom: 30px;
-    color: blueviolet;
    }
    .menu h2{
     margin-bottom: 35px;
@@ -127,7 +113,6 @@
 
 .line1,.line2{
  padding-bottom: 20px;
- color: blueviolet;
 }
 .line2{
     color: blue;
@@ -169,16 +154,50 @@ button:hover{
             padding-top: 50px;
         }
 
-        .contact h2{
-            color: purple;
-            padding-bottom: 20px;
+        @media screen and (width<576px){
+            .burger{
+                display: block;
+            }
+            .about{
+                display: flex;
+                flex-direction: column;
+                background-color: aquamarine;
+            }
+            .food{
+           width: 500px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+         justify-content: flex-start;
+          
+
+         }
+         .para p {
+            
+            text-align: justify;
+            
+        
+
+         }
+         .menu{
+            display: flex;
+            flex-direction: column;
+         }
+         .right {
+            display: none;
+         }
+         .bar{
+            display: block;
+         }
+            
+            
         }
-       
-      
+
 </style>
 <body>
     <div class="nav">
-        <div class="left">Le Catering</div>
+        <div class="left">G o u r m e t a u C a t e r i n g</div>
+        <div class="bar"><i class="fa-solid fa-bars"></i></div>
          <div class="right">
          <a class="right" href="#men">About</a>
          <a class="right" href="#cat">Menu</a>
@@ -194,8 +213,8 @@ button:hover{
     </div>
 <br id="men"><br><br>
     <div class="about">
-        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
-        <div>
+        <img class="food" src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+        <div class="para">
             <h2>About Catering</h2>
             <h4>Tradition Since 1889</h4>
             <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients. <br> <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -255,7 +274,7 @@ button:hover{
 
 <br><br>
             <div class="footer">
-                powered by Anusha
+                powered by supriya
             </div>
 
 </body>
